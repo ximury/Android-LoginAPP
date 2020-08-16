@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".second_try.MainSecondActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 和 Service 的交互之GET方式："
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/mBtnGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="HttpURLConnection 进行 HTTP 请求"/>
+    <Button
+        android:id="@+id/mBtnGet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="HttpClient 进行 HTTP 请求"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/mBtnClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="客户端"/>
+</LinearLayout>
